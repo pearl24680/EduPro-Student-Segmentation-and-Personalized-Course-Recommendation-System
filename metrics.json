@@ -1,0 +1,63 @@
+{
+ "K": 5,
+ "silhouette_kmeans": 0.36521377131765803,
+ "silhouette_ward": 0.34986604271420263,
+ "davies_bouldin": 1.2062266801620891,
+ "ARI_kmeans_vs_ward": 0.5008394732585572,
+ "intra_sim_segments": {
+  "Career-Focused Foundation (Paid)": 0.679,
+  "Free Beginner Browsers": 0.708,
+  "Free Advanced Seekers": 0.867,
+  "Multi-Domain Explorers": 0.909,
+  "Career-Focused Advanced (Paid)": 0.794
+ },
+ "intra_sim_nearest_other_centroid": {
+  "Career-Focused Foundation (Paid)": 0.306,
+  "Free Beginner Browsers": 0.172,
+  "Free Advanced Seekers": 0.297,
+  "Multi-Domain Explorers": 0.078,
+  "Career-Focused Advanced (Paid)": 0.353
+ },
+ "k_scan": {
+  "k": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "inertia": [
+   14910.957373380095,
+   11444.952880387167,
+   9228.625939638207,
+   7807.370555435351,
+   6595.524124593747,
+   5681.539945247684,
+   4992.431195275802
+  ],
+  "silhouette": [
+   0.2961120610516093,
+   0.3243653201392104,
+   0.34242543185882324,
+   0.36498337527204877,
+   0.3902061740729408,
+   0.41155357047689056,
+   0.44192421556211914
+  ]
+ },
+ "hit_rate_at5": {
+  "Hybrid (cluster-aware)": 0.11333333333333333,
+  "Global popularity": 0.11166666666666666,
+  "Random": 0.09666666666666666
+ },
+ "category_precision_at5": {
+  "Hybrid (cluster-aware)": 0.5153333333333333,
+  "Global popularity": 0.4296666666666667,
+  "Random": 0.4326666666666667
+ },
+ "rating_lift": 0.3537635788143545,
+ "n_eval_users": 600,
+ "n_eligible": 768
+}
